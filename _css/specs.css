@@ -1,0 +1,47 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap');
+@font-face {
+    font-family:'fonte-logo';
+    src: url("../_fonts/bubblegum-sans-regular.otf");
+}
+
+
+section#conteudo{
+    width: 1000px; 
+    margin: auto; 
+}
+iframe#frame-spec{
+    width: 430px;
+    height: 300px;
+    border: none;
+    
+}
+iframe#frame-spec::-webkit-scrollbar {
+    display: none;
+    overflow: hidden;
+}
+/*Formatação do section*/
+section#corpo-full h2{
+        
+    background-color: #cecece;
+    
+    color: #606060}
+    /*Formatação do header*/
+header#h-specs h1 {
+        font-family:'fonte-logo', sans-serif;
+        font-size: 20pt;
+        color: #606060; 
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+header#h-specs h2{ 
+        font-size: 13pt;
+        color: #cecece;
+        background-color: #ffff;
+        margin-bottom: 0px;
+    }
+header#h-specs h3{
+        font-size: 12pt;
+        color: #606060; 
+}
+    
